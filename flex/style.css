@@ -61,6 +61,7 @@ p {
 .circleBox div {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .circleBox div div {
   width: 150px;
