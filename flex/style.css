@@ -1,0 +1,79 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  background-color: #f6f6f6;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  margin: 10% 0 0 10%;
+  width: 80%;
+  height: 80%;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  width: 90%;
+  display: flex;
+  border-bottom: solid 1px black;
+  justify-content: space-between;
+  align-items: end;
+  padding-bottom: 8px;
+}
+.num {
+  font-size: 30px;
+  font-weight: 700;
+}
+.city {
+  font-size: 70px;
+  font-weight: 700;
+}
+.textBox > div:nth-child(3) {
+  flex: 2;
+  text-align: right;
+}
+
+.textBox > div:nth-child(1) {
+  flex: 1;
+}
+.textBox {
+  display: flex;
+  padding-top: 8px;
+  justify-content: space-between;
+  width: 90%;
+}
+
+p {
+  font-size: 6px;
+  font-weight: 600;
+}
+.circleBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 90%;
+  height: 480px;
+  margin-top: 50px;
+}
+.circleBox div {
+  display: flex;
+  justify-content: space-around;
+}
+.circleBox div div {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  border-radius: 50%;
+}
+.circleBox div:nth-child(1) > div {
+  background-color: skyblue;
+}
+.circleBox div:nth-child(2) > div {
+  background-color: grey;
+}
+.circleBox div:nth-child(3) > div {
+  background-color: green;
+}
