@@ -57,9 +57,7 @@ body {
   align-self: center;
   background-color: black;
 }
-.img > div {
-  background-color: black;
-}
+
 .contentbox > div:nth-child(3) {
   display: flex;
   justify-content: space-between;
